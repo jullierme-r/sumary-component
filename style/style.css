@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* primary */
+    --paleBlue: #e0e8ff;
+    --brightBlue: #3829e0;
+    /* Neutral */
+    --veryPaleBlue: #f5f7ff;
+    --desaturatedBlue: #7280a7;  
+    --purpleBlue: #766CF1;
+    --darkBlue: #1f2f56;
+
+}
+
+body {    
+    background-image: url('../images/pattern-background-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+.main-wrapper {
+    background-color: var(--veryPaleBlue);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 327px;
+    max-height: 570px;
+    margin: 10vh auto;
+}
+.main-wrapper img {
+    border-radius: 20px 20px 0 0;
+}
+
+.main-text {
+    max-width: 80%;
+    margin: 20px auto;
+    /* font-size: 1.5em; */
+}
+
+.main-wrapper h1, .price h4 {
+    font-weight: 900;
+    color: var(--darkBlue);
+}
+
+.main-text p {
+    color: var(--desaturatedBlue);
+    /* font-size: 1.2em; */
+}
+
+.price {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    width: 80%;
+    margin: auto;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    margin-left: -50px;
+}
+
+.change-plan a {
+    color: var(--brightBlue);
+    font-weight: 900;
+}
+
+.change-plan a:hover {
+    text-decoration: none;
+    color: var(--purpleBlue);
+    font-weight: 900;
+}
+
+.btn {
+    cursor: pointer;
+    width: 80%;
+    margin: auto;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 900;
+}
+
+.btn-proceed {
+    background-color: var(--brightBlue);
+    box-shadow: 1px 10px 10px #3829e055;
+    color: var(--veryPaleBlue);
+    margin-bottom: 15px;
+    transition: 0.4s;
+}
+
+.btn-proceed:hover {
+    background-color: var(--purpleBlue);
+}
+
+.btn-cancel {
+    background-color: transparent;
+    color: var(--desaturatedBlue);
+    margin-bottom: 15px;
+}
+
+.btn-cancel:hover {
+    color: var(--darkBlue);
+}
+
+.attribution { 
+    display: flex;
+    justify-content: center;
+    font-size: 11px; 
+    text-align: center;
+}
+
+.attribution a { 
+    color: #3e52a3; 
+}
+
+@media screen and (min-width: 376px) {
+    body {
+        background-image: url('../images/pattern-background-desktop.svg');
+        max-width: 1440px;
+    }
+    .main-wrapper {
+        width: 450px;
+        max-height: 700px;
+    }
+
+    .price {
+        background-color: var(--paleBlue);
+        height: 100px;
+    }
+
+    .btn {
+        height: 50px;
+    }
+}
