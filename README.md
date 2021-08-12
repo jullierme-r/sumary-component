@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://jullierme-r.github.io/sumary-component/)
+- Solution URL: [https://jullierme-r.github.io/sumary-component/](https://jullierme-r.github.io/sumary-component/)
 
 
 ### Built with
@@ -40,6 +40,4 @@ Users should be able to:
 - Mobile-first workflow
 
 ## Author
-
-- GitHub - [Add your name here](https://github.com/jullierme-r)
 - Frontend Mentor - [@jullierme-r](https://www.frontendmentor.io/profile/jullierme-r)
