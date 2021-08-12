@@ -20,7 +20,6 @@ body {
     background-image: url('../images/pattern-background-mobile.svg');
     background-repeat: no-repeat;
     background-size: 100vw 40vh;
-    /* background-size: cover; */
     font-family: 'Red Hat Display', sans-serif;
     text-align: center;
     font-size: 16px;
