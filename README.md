@@ -1,6 +1,6 @@
-# Frontend Mentor - Stats preview card component solution
+# Frontend Mentor - Order summary card solution
 
-This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -16,18 +16,19 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
+**Note: Delete this note and update the table of contents based on what sections you keep.**
+
 ## Overview
 
 ### The challenge
 
 Users should be able to:
 
-- View the optimal layout depending on their device's screen size
+- See hover states for interactive elements
 
 ### Screenshot
 
-![](./mobile.png)
-![](./desktop.png)
+![](./screenshot.png)
 
 ### Links
 
@@ -46,23 +47,3 @@ Users should be able to:
 
 - GitHub - [Add your name here](https://github.com/jullierme-r)
 - Frontend Mentor - [@jullierme-r](https://www.frontendmentor.io/profile/jullierme-r)
-
-### What I learned
-
-With this project I learned about Blend Modes and how it allows to specify blending between background layers of an element.
-
-```css
-.image {
-    background-color: var(--accent);
-}
-
-.image img {
-    mix-blend-mode: multiply;
-    opacity: 0.75;
-}
-```
-
-### Useful resources
-
-- [Basics of CSS Blend Modes](https://css-tricks.com/basics-css-blend-modes/) 
-- [CSS Blend Modes](https://highrise.digital/blog/css-blend-modes/) 
