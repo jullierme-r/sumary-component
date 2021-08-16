@@ -1,6 +1,6 @@
-# Frontend Mentor - Order summary card solution
+# Frontend Mentor - Stats preview card component solution
 
-This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -10,9 +10,11 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
 - [Author](#author)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -20,15 +22,16 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 Users should be able to:
 
-- See hover states for interactive elements
+- View the optimal layout depending on their device's screen size
 
 ### Screenshot
 
-![](./images/screenshot.png)
+![](./mobile.png)
+![](./desktop.png)
 
 ### Links
 
-- Solution URL: [https://jullierme-r.github.io/sumary-component/](https://jullierme-r.github.io/sumary-component/)
+- Solution URL: [Add solution URL here](https://jullierme-r.github.io/sumary-component/)
 
 
 ### Built with
@@ -40,4 +43,26 @@ Users should be able to:
 - Mobile-first workflow
 
 ## Author
+
+- GitHub - [Add your name here](https://github.com/jullierme-r)
 - Frontend Mentor - [@jullierme-r](https://www.frontendmentor.io/profile/jullierme-r)
+
+### What I learned
+
+With this project I learned about Blend Modes and how it allows to specify blending between background layers of an element.
+
+```css
+.image {
+    background-color: var(--accent);
+}
+
+.image img {
+    mix-blend-mode: multiply;
+    opacity: 0.75;
+}
+```
+
+### Useful resources
+
+- [Basics of CSS Blend Modes](https://css-tricks.com/basics-css-blend-modes/) 
+- [CSS Blend Modes](https://highrise.digital/blog/css-blend-modes/) 
